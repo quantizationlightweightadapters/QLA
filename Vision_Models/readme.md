@@ -64,14 +64,14 @@ paper. Results for QwT were obtained by running their provided
 implementation on GitHub.
 </em></p>
 <p align="center">
-    <img src="../images/transformer_results.png" width="20%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
+    <img src="../images/transformer_results.png" width="40%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
 </p>
 
 <p align="center"><em>
 Table 2 — Comparison of quantization methods on ResNet-50.
 </em></p>
 <p align="center">
-    <img src="../images/resnet_results.png" width="20%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
+    <img src="../images/resnet_results.png" width="40%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
 </p>
 
 <!-- | Model                    | Method         | Prec. | Top-1(%) | Prec. | Top-1(%) |
