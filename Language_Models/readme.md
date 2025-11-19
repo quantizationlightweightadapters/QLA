@@ -1,4 +1,4 @@
-# Generative Models
+# Language Models
 
 Refer to the following instructions to reproduce the results of QLA.
 
