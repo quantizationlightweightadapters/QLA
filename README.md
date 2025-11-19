@@ -8,14 +8,14 @@ QLA is a fast, simple, and effective method to improve the performance of any ar
 ## 🧩 Architecture Overview
 
 <p align="center">
-  <img src="images/overal.png" width="20%" alt="Overview of the proposed lightweight adapter architecture: DW-separable conv on the attention branch and LoRA on the FFN branch, integrated via residual Add&Norm." />
+  <img src="images/overal.png" width="40%" alt="Overview of the proposed lightweight adapter architecture: DW-separable conv on the attention branch and LoRA on the FFN branch, integrated via residual Add&Norm." />
 </p>
 <p align="center"><em>
 Figure 1 — Overview. We attach a depthwise–separable (DW-Sep) convolution in parallel to the self-attention path to correct spatial distortions, and a LoRA block on the FFN path to correct low-rank channel errors. Both outputs are merged through the residual Add&Norm, preserving the original block I/O shape.
 </em></p>
 
 <p align="center">
-  <img src="images/detailed2.png" width="40%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
+  <img src="images/detailed2.png" width="60%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
 </p>
 <p align="center"><em>
 Figure 2 — Per-block wiring. DW-Sep receives the same block input as attention and is added back post-attention; LoRA augments the FFN output. Dashed arrows denote residual fusion; solid arrows denote the quantized backbone flow.
