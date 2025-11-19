@@ -52,14 +52,14 @@ report model size and Exact Match (EM) scores for BNB, RepQ,
 QwT, and the proposed method across multiple bit-widths.
 </em></p>
 <p align="center">
-    <img src="../images/gpt_results.png" width="20%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
+    <img src="../images/gpt_results.png" width="40%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
 </p>
 
 <p align="center"><em>
 Performance of BERT Base on MRPC
 </em></p>
 <p align="center">
-    <img src="../images/bert_results.png" width="20%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
+    <img src="../images/bert_results.png" width="40%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
 </p>
 
 
@@ -67,5 +67,5 @@ Performance of BERT Base on MRPC
  Performance of RoBERTa on the SQuAD v1.1 dataset
 </em></p>
 <p align="center">
-    <img src="../images/roberta_results.png" width="20%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
+    <img src="../images/roberta_results.png" width="40%" alt="Detailed block diagram showing where DW-separable conv and LoRA attach relative to Self-Attention, Intermediate/Output FFN, and Add&Norm." />
 </p>
